@@ -1,0 +1,33 @@
+/* Sidebar.css */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 250px; /* Defina a largura do sidebar conforme necessário */
+    height: 100%; /* Ocupar toda a altura da página */
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto; /* Adicione uma barra de rolagem vertical, se necessário */
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px; /* Espaço maior entre o título e os itens do menu */
+  }
+  
+  .menu-item {
+    padding: 8px;
+    margin-bottom: 12px; /* Espaço maior entre os itens do menu */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  
+    /* Estilos quando o mouse passar por cima */
+    &:hover {
+      background-color: #555;
+    }
+  }
+  
